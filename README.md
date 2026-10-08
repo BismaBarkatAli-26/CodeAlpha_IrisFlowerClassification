@@ -77,4 +77,4 @@ Screenshots: `images/05_model_comparison.png`, `images/06_confusion_matrix.png`,
 Repeated cross-validation, `GridSearchCV` hyper-parameter tuning, a Streamlit web app using the saved model.
 
 ## Author
-<Your Name> — Data Science Intern, CodeAlpha · [LinkedIn](<your-link>)
+<Bisma Barkat Ali> — Data Science Intern.
