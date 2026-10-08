@@ -13,7 +13,6 @@ A supervised machine-learning project that classifies Iris flowers into three sp
 - **Source:** the classic Iris dataset (R. A. Fisher, 1936), available built-in via `sklearn.datasets.load_iris()` and as `Iris.csv` in the CodeAlpha-linked / Kaggle "Iris Species" download.
 - **Size:** 150 rows × 4 numeric features + 1 target (50 flowers per species).
 - **Target:** `species` (3 classes).
-- The notebook uses `Iris.csv` if present (in the project root or `data/`), otherwise the built-in copy — no download is required.
 
 ## Technologies
 Python 3 · NumPy · Pandas · Matplotlib · Seaborn · Scikit-learn · Joblib · Jupyter / Google Colab
@@ -24,9 +23,8 @@ CodeAlpha_IrisFlowerClassification/
 ├── Iris_Flower_Classification.ipynb   # full, commented workflow
 ├── requirements.txt
 ├── README.md
-├── data/        # optional Iris.csv
-├── images/      # charts saved by the notebook
-└── models/      # iris_best_model.joblib (created when you run the notebook)
+├── Iris Flower Images/      # charts saved by the notebook
+└── iris_best_model.joblib     #trained model
 ```
 
 ## How to run
@@ -62,7 +60,7 @@ Results below were produced by running this notebook with the **scikit-learn bui
 
 **Selected model:** Logistic Regression — **Test accuracy 0.9333** (28/30 correct); macro precision, recall and F1 = 0.9333. Setosa: 10/10 correct; one versicolor and one virginica were confused with each other.
 
-Screenshots: `images/05_model_comparison.png`, `images/06_confusion_matrix.png`, `images/07_feature_importance.png`
+Screenshots: see the 'Iris Flower Images' Folder
 
 ## Key findings
 - Petal length and petal width are by far the most informative features (Random Forest importances ≈ 0.44 and 0.42).
