@@ -34,7 +34,7 @@ CodeAlpha_IrisFlowerClassification/
 
 **Locally:**
 ```bash
-git clone https://github.com/<your-username>/CodeAlpha_IrisFlowerClassification.git
+git clone https://github.com/<BismaBarkatAli-26>/CodeAlpha_IrisFlowerClassification.git
 cd CodeAlpha_IrisFlowerClassification
 pip install -r requirements.txt
 jupyter notebook Iris_Flower_Classification.ipynb
@@ -77,4 +77,4 @@ Screenshots: `images/05_model_comparison.png`, `images/06_confusion_matrix.png`,
 Repeated cross-validation, `GridSearchCV` hyper-parameter tuning, a Streamlit web app using the saved model.
 
 ## Author
-<Bisma Barkat Ali> — Data Science Intern.
+Bisma Barkat Ali — Data Science Intern.
